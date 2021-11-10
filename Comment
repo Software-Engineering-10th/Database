@@ -1,0 +1,46 @@
+package comment;
+
+public class Comment {
+	private int commentNo; //댓글번호
+	private String userID; //유저 아이디
+	private String commentDate; //댓글작성 날짜
+	private String commentContent; //댓글 내용
+	private int commentAvailable; //댓글 삭제 여부
+	
+	
+	public int getcommentNo() {
+		return commentNo;
+	}
+	public void setcommentNo(int commentNo) {
+		this.commentNo = commentNo;
+	}
+	public String getUserID() {
+		return userID;
+	}
+	public void setUserID(String userID) {
+		this.userID = userID;
+	}
+	public String getcommentDate() {
+		return commentDate;
+	}
+	public void setcommentDate(String commentDate) {
+		this.commentDate = commentDate;
+	}
+
+	public String getcommentContent() {
+		return commentContent;
+	}
+	public void setcommentContent(String commentContent) {
+		this.commentContent = commentContent;
+	}
+	public int getcommentAvailable() {
+		return commentAvailable;
+	}
+	public void setcommentAvailable(int commentAvailable) {
+		this.commentAvailable = commentAvailable;
+	}
+	
+	
+}
+
+
